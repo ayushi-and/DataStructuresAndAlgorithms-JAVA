@@ -1,0 +1,45 @@
+
+X
+(src/Mathematics/AdditionUnderModulo.java,d/b/db2a18261c9ac23d27d66717694fec01033e9a71
+P
+ src/Mathematics/AllDivisors.java,9/4/9483d7e9c792d880ecb9ddabe6adcd2184dfd3b6
+W
+'src/Mathematics/CelsiusToFahreheit.java,4/d/4d354b18d06fb92d07ef36157eae3c09cb2b52dd
+Q
+!src/Mathematics/ComputePower.java,d/d/dd248845d8525d3ac3cab86515ca4f71d1dc9b0d
+P
+ src/Mathematics/CountDigits.java,7/b/7bf949b8a2341c472a2ee42137729f13859dfec5
+V
+&src/Mathematics/DigitsInFactorial.java,4/4/4432d99dbe7d7fcbe7cfd936eb9a380d3ddade91
+Y
+)src/Mathematics/ExactlyThreeDivisors.java,a/c/acb8804ba12e92319656a8523754f194d574b777
+N
+src/Mathematics/Factorial.java,2/5/25d2424b04666fca4ab31ce20a9cc49227126ee0
+H
+src/Mathematics/Gcd.java,6/0/60c2e81ee8e27a64f8b2f3d6e5ec3e7bdc61c895
+K
+src/Mathematics/GPTerm.java,a/8/a8dce080a46246c8c366fc64839d42fbf48d94ca
+H
+src/Mathematics/Lcm.java,9/b/9b335c2af56a65871ed5af6d0b4481ea7450c6a2
+O
+src/Mathematics/Palindrome.java,6/d/6d15cc922d746e57867c34352f745ffbf5145ba8
+O
+src/Mathematics/PrimeCheck.java,f/b/fb2ad048d1d77af6445fc95c994ee733df52cf5e
+Q
+!src/Mathematics/PrimeFactors.java,1/a/1a7b0ea065b64e559d30df3841091920d49c0f96
+S
+#src/Mathematics/QuadraticRoots.java,b/1/b15954af43852e38158b4f580a32ffa603e2f4fc
+X
+(src/Mathematics/SieveOfEratosthenes.java,0/e/0e1a3a4b32dd475673cc692ce3dc6d2db9c47f48
+S
+#src/Mathematics/TrailingZeroes.java,d/c/dc026175090bdd64f6c3daacaff177d08a57e59b
+a
+1src/Mathematics/ModularMultiplicativeInverse.java,b/c/bc6f36362f245e9e424fb4014182b0358540c2e5
+Y
+)src/BitManipulations/BitwiseAndOrXor.java,a/2/a2eb3f67d0c5c39e8e31cfcbca5b9968795dffdd
+]
+-src/BitManipulations/BitwiseNotLeftShift.java,1/5/15ea8e03e1ffa20e3c27846a8219d8af3fc7402b
+`
+0src/BitManipulations/BitwiseRightShiftCases.java,c/2/c24f90a5071b859b1ffa367363f2cd175e48b189
+R
+"src/Mathematics/AbsoluteValue.java,f/8/f8fc405d1c060c751cc12d5410c5fff54dc6d088

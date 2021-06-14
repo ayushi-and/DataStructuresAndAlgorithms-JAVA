@@ -1,0 +1,8 @@
+
+Œ
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼Ö¶S8¹¤Ší›/
+g
+java:S2184	"ECast one of the operands of this subtraction operation to a "double".(ž‚Ã“ýÿÿÿÿ8º¤Ší›/
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž‚Ã“ýÿÿÿÿ8»¤Ší›/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍòÐ¨ÿÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ƒïïá8§Ù‹í›/

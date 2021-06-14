@@ -1,2 +1,2 @@
-# Data_Structures-Algorithms-Java-
-Questions
+# DataStructures&Algorithms-Java
+Mixed Questions (Gfg and Leetcode)
