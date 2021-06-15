@@ -22,7 +22,7 @@ public class LinkedListCreateAndInsert {
             next = null;
         }
     }
-
+    // **************INSERTION**************
     // Method to insert a new node
     public static LinkedListCreateAndInsert insert(LinkedListCreateAndInsert list, int data) {
         // Create a new node with given data
@@ -47,6 +47,9 @@ public class LinkedListCreateAndInsert {
         // Return the list by head
         return list;
     }
+
+    // **************TRAVERSAL**************
+
     // Method to print the LinkedList.
     public static void printList(LinkedListCreateAndInsert list) {
         Node currNode = list.head;
