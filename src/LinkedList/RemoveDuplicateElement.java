@@ -1,8 +1,10 @@
 package LinkedList;
 
-//Remove duplicate element from sorted Linked List
+//Remove duplicate element from sorted as well as unsorted Linked List
 //Given a singly linked list consisting of N nodes. The task is to remove duplicates (nodes with duplicate values) from the given list (if exists).
 //Note: Try not to use extra space. Expected time complexity is O(N). The nodes are arranged in a sorted way.
+
+import java.util.HashSet;
 
 public class RemoveDuplicateElement {
     Node head;
@@ -17,6 +19,7 @@ public class RemoveDuplicateElement {
         }
     }
 
+    //Remove duplicate element from sorted Linked List
     static void removeDuplicatesFromSortedList(RemoveDuplicateElement list) {
         Node currNode = list.head;
         Node prev = list.head;
@@ -47,6 +50,25 @@ public class RemoveDuplicateElement {
             prev.next=null;
         }
     }
+
+    // Function to remove duplicates from an unsorted linked list
+    static void removeDuplicatesFromUnsortedList(RemoveDuplicateElement list) {
+        Node currNode = list.head;
+        Node prev = null;
+        HashSet<Integer> hs = new HashSet<>();
+        while(currNode  != null) {
+            if (hs.contains(currNode.data)) {
+                prev.next = currNode.next;
+            }
+            else {
+                hs.add(currNode.data);
+                prev = currNode;
+            }
+            currNode = currNode.next;
+        }
+
+    }
+
 
     public static void printList(RemoveDuplicateElement list) {
         Node currNode = list.head;
@@ -88,6 +110,7 @@ public class RemoveDuplicateElement {
 
         printList(list);
         removeDuplicatesFromSortedList(list);
+        //removeDuplicatesFromUnsortedList(list);
         printList(list);
 
     }
