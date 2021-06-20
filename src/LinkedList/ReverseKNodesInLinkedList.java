@@ -65,8 +65,8 @@ public class ReverseKNodesInLinkedList {
         if(next != null) {
             head.next = reverseEveryKNodes(next, k);
         }
-
-        return prev;
+        head = prev;
+        return head;
     }
 
     public static void main(String[] args) {
