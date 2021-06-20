@@ -65,13 +65,12 @@ public class ReverseKNodesInList {
                 if(prev == null) {
                     prev = stack.peek();
                     head = prev;
-                    stack.pop();
                 }
                 else {
                     prev.next = stack.peek();
                     prev = prev.next;
-                    stack.pop();
                 }
+                stack.pop();
             }
         }
         prev.next = null;
