@@ -9,7 +9,7 @@ package StackAndQueue;
 //true
 //Explanation:
 //{ ( [ ] ) }. Same colored brackets can form
-//balaced pairs, with 0 number of
+//balanced pairs, with 0 number of
 //unbalanced bracket.
 //Example 3:
 //Input:
