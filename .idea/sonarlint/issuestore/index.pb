@@ -1,8 +1,6 @@
 
 X
 (src/Mathematics/AdditionUnderModulo.java,d/b/db2a18261c9ac23d27d66717694fec01033e9a71
-P
- src/Mathematics/AllDivisors.java,9/4/9483d7e9c792d880ecb9ddabe6adcd2184dfd3b6
 W
 'src/Mathematics/CelsiusToFahreheit.java,4/d/4d354b18d06fb92d07ef36157eae3c09cb2b52dd
 Q

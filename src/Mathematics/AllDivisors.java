@@ -51,8 +51,7 @@ package Mathematics;
 public class AllDivisors {
     static void printDivisors(int n)
     {
-        int i = 1;
-        for(i=1; i*i < n; i++) //Print all divisors from 1(inclusive) to sqrt(n)(exclusive)
+        for(int i=1; i*i < n; i++) //Print all divisors from 1(inclusive) to sqrt(n)(exclusive)
         {
             if(n % i == 0)
             {
@@ -60,7 +59,7 @@ public class AllDivisors {
             }
         }
 
-        for(; i >= 1; i--) //Print all divisors from sqrt(n)(inclusive) to n(exclusive)
+        for(int i = (int)Math.sqrt(n); i >= 1; i--) //Print all divisors from sqrt(n)(inclusive) to n(exclusive)
         {
             if(n % i == 0)
             {
@@ -71,7 +70,7 @@ public class AllDivisors {
 
     public static void main (String[] args) {
 
-        int n = 15;
+        int n = 6;
 
         printDivisors(n);
 
