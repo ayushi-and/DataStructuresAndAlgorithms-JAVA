@@ -41,3 +41,11 @@ Y
 0src/BitManipulations/BitwiseRightShiftCases.java,c/2/c24f90a5071b859b1ffa367363f2cd175e48b189
 R
 "src/Mathematics/AbsoluteValue.java,f/8/f8fc405d1c060c751cc12d5410c5fff54dc6d088
+\
+,src/LinkedList/DeleteMiddleOfLinkedList.java,b/e/be7636f342e89e0b32ad054d2392ce3cf16f01a3
+V
+&src/LinkedList/LinkedListDeletion.java,b/0/b0615bdc059b0041ef9c20967bcaa672571fc087
+]
+-src/LinkedList/LinkedListCreateAndInsert.java,8/9/89fc72aa60048b7649454f314f263db1da3fdf27
+W
+'src/LinkedList/ReverseOfLinkedList.java,a/8/a85f55764c145074846390ee9101b2c7d7f85459

@@ -1,0 +1,28 @@
+
+…
+java:S4165"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(ˆ¨Éùÿÿÿÿ8†ÿŸ†¨/
+…
+java:S4165“"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(éœ«áøÿÿÿÿ8†ÿŸ†¨/
+€
+java:S4165‘"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(û˜€«8‡ÿŸ†¨/
+€
+java:S4165”"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(öÖòÎ8‡ÿŸ†¨/
+…
+java:S4165•"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(º‰¸Ùıÿÿÿÿ8‡ÿŸ†¨/
+…
+java:S4165’"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(ìÛ¶ïÿÿÿÿÿ8‡ÿŸ†¨/
+…
+java:S4165"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(îß ÿÿÿÿÿ8‡ÿŸ†¨/
+…
+java:S4165"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(è€ºëùÿÿÿÿ8‰ÿŸ†¨/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾ÃŠ™úÿÿÿÿ8ÿŸ†¨/
+d
+java:S2259P"BA "NullPointerException" could be thrown; "prev" is nullable here.(¨•ÿ¡ûÿÿÿÿ8‘ÿŸ†¨/
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(²º¾¸8£ÿŸ†¨/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(„üÌ¹ûÿÿÿÿ8¤ÿŸ†¨/
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(Ìƒşï8¥ÿŸ†¨/
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(Ìƒşï8¦ÿŸ†¨/
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(©†ã„øÿÿÿÿ8¦ÿŸ†¨/
+T	java:S106h"9Replace this use of System.out or System.err by a logger.(˜à­M8¨ÿŸ†¨/
+T	java:S106u"9Replace this use of System.out or System.err by a logger.(˜à­M8ªÿŸ†¨/
+V	java:S106…"9Replace this use of System.out or System.err by a logger.(¬¯ˆï8«ÿŸ†¨/

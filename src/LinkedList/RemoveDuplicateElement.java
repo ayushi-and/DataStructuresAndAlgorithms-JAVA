@@ -36,8 +36,8 @@ public class RemoveDuplicateElement {
 
         while(currNode != null) {
             //Compare values of both pointers
-            if(currNode.data != prev.data) {
-                /* if the value of prev is not equal to the value of temp that means there are no more occurrences of the prev data.
+            if(currNode.data != prev.data) { //1 2 3 4 5
+                /* if the value of prev is not equal to the value of currNode that means there are no more occurrences of the prev data.
                 So we can set the next of prev to the temp node.*/
                 prev.next = currNode;
                 prev = currNode;
