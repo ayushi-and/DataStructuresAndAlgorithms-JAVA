@@ -10,6 +10,13 @@ package LinkedList;
 //   Intersection List: 4->10
 //   Union List: 2->8->20->4->15->10
 //This method assumes that there are no duplicates in the given lists
+
+//Time Complexity: O(m*n).
+//Here ‘m’ and ‘n’ are number of elements present in first and second lists respectively.
+//For union: For every element in list-2 we check if that element is already present in the resultant list made using list-1.
+//For intersection: For every element in list-1 we check if that element is also present in list-2.
+//Auxiliary Space: O(1).
+//No use of any data structure for storing values.
 public class UnionIntersectionOfLists {
     Node head;
 
