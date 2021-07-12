@@ -7,8 +7,6 @@ Q
 !src/Mathematics/ComputePower.java,d/d/dd248845d8525d3ac3cab86515ca4f71d1dc9b0d
 P
  src/Mathematics/CountDigits.java,7/b/7bf949b8a2341c472a2ee42137729f13859dfec5
-V
-&src/Mathematics/DigitsInFactorial.java,4/4/4432d99dbe7d7fcbe7cfd936eb9a380d3ddade91
 Y
 )src/Mathematics/ExactlyThreeDivisors.java,a/c/acb8804ba12e92319656a8523754f194d574b777
 N
