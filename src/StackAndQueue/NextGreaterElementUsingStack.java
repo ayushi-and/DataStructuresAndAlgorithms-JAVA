@@ -15,6 +15,8 @@ package StackAndQueue;
 //to 1 is 3 , 3 is 4 , 2 is 4 and for 4 ?
 //since it doesn't exist, it is -1.
 
+//Time Complexity- O(n)
+//Auxiliary Space- O(n)
 /*public class NextGreaterElementUsingStack {
     static class
 }*/

@@ -27,8 +27,6 @@ S
 #src/Mathematics/QuadraticRoots.java,b/1/b15954af43852e38158b4f580a32ffa603e2f4fc
 X
 (src/Mathematics/SieveOfEratosthenes.java,0/e/0e1a3a4b32dd475673cc692ce3dc6d2db9c47f48
-S
-#src/Mathematics/TrailingZeroes.java,d/c/dc026175090bdd64f6c3daacaff177d08a57e59b
 a
 1src/Mathematics/ModularMultiplicativeInverse.java,b/c/bc6f36362f245e9e424fb4014182b0358540c2e5
 Y

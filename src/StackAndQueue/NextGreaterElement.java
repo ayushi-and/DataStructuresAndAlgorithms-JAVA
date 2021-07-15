@@ -16,6 +16,7 @@ package StackAndQueue;
 //since it doesn't exist, it is -1.
 
 //Time Complexity- O(n*n)
+//Auxiliary Space: O(1)
 public class NextGreaterElement {
 
     static void printElement(int[] arr, int n) {
