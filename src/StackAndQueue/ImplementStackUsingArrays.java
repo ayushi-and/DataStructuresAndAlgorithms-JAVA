@@ -1,6 +1,8 @@
 package StackAndQueue;
 
 //Implement basic stack operations in java (using arrays)
+//Pros: Easy to implement. Memory is saved as pointers are not involved.
+//Cons: It is not dynamic. It does not grow and shrink depending on needs at runtime.
 
 public class ImplementStackUsingArrays {
     static final int MAX = 1000;
