@@ -67,12 +67,8 @@ _
 /src/TestMixedQuestions/MaxSumSlidingWindow.java,2/d/2d454ee9ea07e8129dda5ba53a683a179259ce0c
 e
 5src/TestMixedQuestions/LongestPalindromeInString.java,b/0/b021267f297d3b213e2d9838b27a5d6cc1fd429a
-Y
-)src/StackAndQueue/NextGreaterElement.java,4/9/492f755cabe18e2d5bd42f9e1ca1286ea090d615
 o
 ?src/TestMixedQuestions/AnagramSubstringSearchSlidingWindow.java,b/1/b17f0a472e93ff991fb8d3692ec76252943d5d34
-c
-3src/StackAndQueue/NextGreaterElementUsingStack.java,5/7/57eabbad4d440e6595ff3009a7600a6333596464
 Y
 )src/StackAndQueue/ParenthesisChecker.java,5/d/5db777e55b014cc074d7081f8bd21126b3ffe5c7
 V

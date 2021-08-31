@@ -17,6 +17,69 @@ package StackAndQueue;
 
 //Time Complexity- O(n)
 //Auxiliary Space- O(n)
-/*public class NextGreaterElementUsingStack {
-    static class
-}*/
+public class NextGreaterElementUsingStack {
+    static class stack {
+        int top;
+        int arr[] = new int[100];
+
+        void push(int x) {
+            if(top == 99) {
+                System.out.println("Stack is full!");
+            }
+            else {
+                arr[++top] = x;
+            }
+        }
+        int pop() {
+            if(top == -1) {
+                System.out.println("Stack underflow!");
+                return -1;
+            }
+            else {
+                int x = arr[top--];
+                return x;
+            }
+        }
+        boolean isEmpty() {
+            return (top == -1) ? true : false;
+        }
+    }
+    //11, 13, 21, 3
+    static void printNextGreaterElement(int[] arr, int n) {
+        int i = 0;
+        stack s = new stack();
+        s.top = -1;
+        int element;
+        int next;
+        s.push(arr[0]);
+
+        for(i = 1; i < n; i++) {
+            next = arr[i];
+
+            if(s.isEmpty() == false) {
+                element = s.pop();
+                while(element < next) {
+                    System.out.println(element + " -> " +next);
+                    if(s.isEmpty() == true)
+                        break;
+                    element = s.pop();
+                }
+                if (element > next) {
+                    s.push(element);
+                }
+            }
+            s.push(next);
+        }
+        while (s.isEmpty() == false) {
+            element = s.pop();
+            next = -1;
+            System.out.println(element + " -> " + next);
+        }
+    }
+
+    public static void main(String[] args) {
+        int arr[] = {11, 13, 21, 3};
+        int n = arr.length;
+        printNextGreaterElement(arr, n);
+    }
+}
