@@ -77,8 +77,6 @@ Z
 *src/LinkedList/RemoveDuplicateElement.java,d/5/d57e98b5a061c6bea51eab73449c529f99ea29ec
 V
 &src/LinkedList/MiddleOfLinkedList.java,f/4/f4cbf9f67dca2160068f22789fd1e068c020e169
-\
-,src/LinkedList/DeleteMiddleOfLinkedList.java,b/e/be7636f342e89e0b32ad054d2392ce3cf16f01a3
 ]
 -src/LinkedList/DetectAndRemoveLoopInList.java,8/9/89111b27aa5c4ce43a64525606209ef50a56c2ba
 ]
