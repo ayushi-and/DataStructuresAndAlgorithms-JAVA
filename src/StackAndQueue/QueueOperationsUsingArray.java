@@ -73,7 +73,7 @@ public class QueueOperationsUsingArray {
         else {
             System.out.println("Front index of queue -> " + front);
             for(int i = front; i <= rear; i++) {
-                System.out.print("\t"+ arr[i] + " " + "\n");
+                System.out.print(arr[i] + " " + "\n");
             }
             System.out.println("Rear index of queue -> " + rear);
         }
