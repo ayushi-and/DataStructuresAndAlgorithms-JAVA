@@ -15,8 +15,8 @@ public class RemoveDuplicatesFromSortedArray {
                 next++;
             }
         }
-        arr[next++] = arr[n-1];
-        for (int i = 0; i < next; i++)
+        arr[next] = arr[n-1];
+        for (int i = 0; i <= next; i++)
         {
             System.out.print(arr[i]+" ");
         }
