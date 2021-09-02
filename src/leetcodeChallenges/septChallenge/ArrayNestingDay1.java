@@ -20,6 +20,27 @@ package leetcodeChallenges.septChallenge;
 //1 <= nums.length <= 105
 //0 <= nums[i] < nums.length
 //All the values of nums are unique.
+//O(n)
 public class ArrayNestingDay1 {
+    public static int arrayNesting(int[] nums) {
+        int n = nums.length;
+        int result = 0;
+        for(int i = 0; i < n; i++) {
+            int next = i;
+            int count = 0;
+            while(nums[next] != -1) {
+                count++;
+                int temp = next;
+                next = nums[next];
+                nums[temp] = -1;
+            }
+            result = Math.max(result, count);
+        }
+        return result;
+    }
 
+    public static void main(String[] args) {
+        int[] nums = {5,4,0,3,1,6,2};
+        System.out.println(arrayNesting(nums));
+    }
 }
