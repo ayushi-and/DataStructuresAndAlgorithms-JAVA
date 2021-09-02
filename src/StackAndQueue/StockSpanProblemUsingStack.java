@@ -11,12 +11,13 @@ import java.util.Stack;
 //then the span values for corresponding 7 days are {1, 1, 1, 2, 1, 4, 6}
 //O(n) - Efficient
 public class StockSpanProblemUsingStack {
-    static int[] calculateSpan(int[] arr, int n, int[] result) {
+    static int[] calculateSpan(int[] arr) {
+        int[] result = new int[arr.length];
         Stack<Integer> st = new Stack<>();
         st.push(0);
 
         result[0] = 1;
-        for(int i = 1; i < n; i++) {
+        for(int i = 1; i < arr.length; i++) {
             while(!st.empty() && arr[st.peek()] <= arr[i]) {
                 st.pop();
             }
@@ -28,8 +29,6 @@ public class StockSpanProblemUsingStack {
 
     public static void main(String[] args) {
         int[] arr = {10, 4, 5, 90, 120, 80};
-        int n = arr.length;
-        int[] result = new int[n];
-        System.out.println(Arrays.toString(calculateSpan(arr, n, result)));
+        System.out.println(Arrays.toString(calculateSpan(arr)));
     }
 }
