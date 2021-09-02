@@ -25,7 +25,7 @@ public class RemoveDuplicatesFromSortedArray {
 
     public static void main (String[] args)
     {
-        int arr[] = {100, 100, 512, 550, 700, 800, 800};
+        int arr[] = {100, 100, 500, 600, 700, 800, 800};
             removeDuplicate(arr);
     }
 }
