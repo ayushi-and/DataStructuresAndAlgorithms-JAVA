@@ -15,6 +15,8 @@ package StackAndQueue;
 
 import java.util.Stack;
 
+//METHOD - 1 : By making enQueue operation costly
+
 public class QueueImplUsingStack1 {
     Stack<Integer> s1 = new Stack<>();
     Stack<Integer> s2 = new Stack<>();
@@ -38,4 +40,16 @@ public class QueueImplUsingStack1 {
         s1.pop();
         return x;
     }
+
+    public static void main(String[] args) {
+        QueueImplUsingStack1 q = new QueueImplUsingStack1();
+        q.enQueue(1);
+        q.enQueue(2);
+        q.enQueue(3);
+
+        System.out.println(q.deQueue());
+        System.out.println(q.deQueue());
+        System.out.println(q.deQueue());
+    }
+
 }
