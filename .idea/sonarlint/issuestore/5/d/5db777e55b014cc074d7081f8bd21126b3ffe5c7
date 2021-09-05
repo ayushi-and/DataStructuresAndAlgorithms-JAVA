@@ -1,9 +1,0 @@
-
-y	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îûå‡ûÿÿÿÿ8ÚÚœ¼¯/
-V	java:S125"<This block of commented-out lines of code should be removed.(¿°à8ÜÚœ¼¯/
-r
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ùŞœÄüÿÿÿÿ8àÚœ¼¯/
-A	java:S131""Add a default case to this switch.(Œ¼’ şÿÿÿÿ8ëÚœ¼¯/
-X	java:S106"9Replace this use of System.out or System.err by a logger.(äÈŸÄúÿÿÿÿ8ïÚœ¼¯/
-X	java:S106"9Replace this use of System.out or System.err by a logger.(®äáñøÿÿÿÿ8ğÚœ¼¯/
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ó®–ı8ñÚœ¼¯/
