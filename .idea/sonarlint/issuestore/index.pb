@@ -49,16 +49,10 @@ X
 -src/TestMixedQuestions/TicTacToeLeetCode.java,6/c/6cd3ad9b255e9a2385dfccd6e6705ff9dc3e9076
 ^
 .src/TestMixedQuestions/TicTacToeMainClass.java,1/9/196230444d10b4df1d559d1f50560487a80283aa
-`
-0src/TestMixedQuestions/ReverseWordsInString.java,c/8/c8b2e4344c1e81633ca30973ed78a3d3bd68d789
 O
 src/Mathematics/PrimeCheck.java,f/b/fb2ad048d1d77af6445fc95c994ee733df52cf5e
-`
-0src/TestMixedQuestions/PermutationsOfString.java,c/9/c960392f5d8496e96b2dc4629c09d2edd32dd9d6
 p
 @src/TestMixedQuestions/LongestSubstringWithNoRepeatingChars.java,6/2/62b14f089da61055cacc8a3a92cccb9424c238d1
-l
-<src/TestMixedQuestions/RemoveAdjacentDuplicatesInString.java,c/e/ce545021a8572ada79c53f779e2238fef2daeb76
 h
 8src/TestMixedQuestions/CountSubstringsSlidingWindow.java,2/7/2722cc9d6b718ae769e1ec7c0b98c941aaa3a49d
 h
