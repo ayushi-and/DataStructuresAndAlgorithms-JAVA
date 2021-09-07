@@ -63,14 +63,8 @@ e
 5src/TestMixedQuestions/LongestPalindromeInString.java,b/0/b021267f297d3b213e2d9838b27a5d6cc1fd429a
 o
 ?src/TestMixedQuestions/AnagramSubstringSearchSlidingWindow.java,b/1/b17f0a472e93ff991fb8d3692ec76252943d5d34
-V
-&src/LinkedList/LinkedListDeletion.java,b/0/b0615bdc059b0041ef9c20967bcaa672571fc087
 Z
 *src/LinkedList/RemoveDuplicateElement.java,d/5/d57e98b5a061c6bea51eab73449c529f99ea29ec
-V
-&src/LinkedList/MiddleOfLinkedList.java,f/4/f4cbf9f67dca2160068f22789fd1e068c020e169
-]
--src/LinkedList/DetectAndRemoveLoopInList.java,8/9/89111b27aa5c4ce43a64525606209ef50a56c2ba
 ]
 -src/LinkedList/LinkedListCreateAndInsert.java,8/9/89fc72aa60048b7649454f314f263db1da3fdf27
 ]
