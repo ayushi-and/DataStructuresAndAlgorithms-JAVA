@@ -8,4 +8,5 @@ package StackAndQueue;
 
 //Method 1 (By making push operation costly)
 public class StackImplUsingQueueMethod1 {
+
 }
