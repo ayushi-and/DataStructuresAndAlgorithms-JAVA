@@ -12,11 +12,11 @@ import java.util.Queue;
 //Method 1 (By making push operation costly)
 /*
 -----------------Steps-----------------
-PUSH(x):
+PUSH(x): O(n)
 1. Add x -> Queue2
 2. Queue1 -> Queue2(element by element)
 3. Swap (Queue1, Queue2)
-POP():
+POP(): O(1)
 Remove the top of Queue1
  */
 public class StackImplUsingQueueMethod1 {
