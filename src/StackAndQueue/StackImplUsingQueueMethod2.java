@@ -5,6 +5,16 @@ package StackAndQueue;
 //We need to implement a Stack data structure using only instances of Queue and queue operations allowed on the instances.
 //A stack can be implemented using two queues.
 
+/*
+push(s, x) operation:
+Enqueue x to q1 (assuming size of q1 is unlimited).
+pop(s) operation:
+One by one dequeue everything except the last element from q1 and enqueue to q2.
+Dequeue the last item of q1, the dequeued item is result, store it.
+Swap the names of q1 and q2
+Return the item stored in step 2.
+ */
+
 import java.util.LinkedList;
 import java.util.Queue;
 
