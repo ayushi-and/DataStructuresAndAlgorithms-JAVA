@@ -65,7 +65,3 @@ o
 ?src/TestMixedQuestions/AnagramSubstringSearchSlidingWindow.java,b/1/b17f0a472e93ff991fb8d3692ec76252943d5d34
 Z
 *src/LinkedList/RemoveDuplicateElement.java,d/5/d57e98b5a061c6bea51eab73449c529f99ea29ec
-]
--src/LinkedList/LinkedListCreateAndInsert.java,8/9/89fc72aa60048b7649454f314f263db1da3fdf27
-]
--src/LinkedList/ReverseKNodesInLinkedList.java,d/0/d040e7525e7f7cc0541ac3bcdfd60a47112bb6f2
