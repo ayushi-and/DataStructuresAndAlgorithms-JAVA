@@ -30,7 +30,7 @@ There will be no two consecutive operators in the input.
 Every number and running calculation will fit in a signed 32-bit integer.
  */
 //Solved using stacks: hint- Calculator related problems solved using stack.
-//TC: O(n)
+//TC: O(n) - n is string length
 public class BasicCalculatorDay11 {
     public static int calculate(String s) {
         int sign = 1; //for + sign
