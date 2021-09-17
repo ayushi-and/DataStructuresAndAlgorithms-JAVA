@@ -34,7 +34,7 @@ public class IntersectionOfTwoArraysUsingMapDay17 {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int i = 0; i < nums1.length; i++) {
-            if(map.containsKey(nums1[1])) {
+            if(map.containsKey(nums1[i])) {
                 map.put(nums1[i], map.get(nums1[i]) + 1);
             }
             else {
