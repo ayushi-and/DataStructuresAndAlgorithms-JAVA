@@ -2,34 +2,36 @@ package TreeDS;
 
 import java.util.LinkedList;
 import java.util.Queue;
+
 /*
-Given a binary tree, delete a node from it by making sure that tree shrinks from the bottom 
-(i.e. the deleted node is replaced by the bottom-most and rightmost node). This is different from BST deletion. 
+Given a binary tree, delete a node from it by making sure that tree shrinks from the bottom
+(i.e. the deleted node is replaced by the bottom-most and rightmost node). This is different from BST deletion.
 Here we do not have any order among elements, so we replace with the last element.
 
 Examples :
 Delete 10 in below tree
        10
-     /    \         
+     /    \
     20     30
-Output :    
+Output :
        30
-     /             
-    20     
+     /
+    20
 
 
 Delete 20 in below tree
        10
-     /    \         
+     /    \
     20     30
             \
             40
-Output :    
+Output :
        10
-     /   \             
-    40    30   
+     /   \
+    40    30
  */
-public class DeletionInABinaryTree {
+//In single pass
+public class DeletionInABinaryTreeSingleTraversal {
     static class Node {
         int key;
         Node left;
@@ -55,6 +57,8 @@ public class DeletionInABinaryTree {
             }
         }
 
+        Node prevLeft = null;
+        Node prevRight = null;
         Node keyNode = null;
         Node lastNode = null;
         Queue<Node> queue = new LinkedList<>();
@@ -69,35 +73,25 @@ public class DeletionInABinaryTree {
             }
             if(lastNode.left != null) {
                 queue.add(lastNode.left);
+                prevLeft = lastNode;
+                prevRight = null; //since only one of the left or right child will be the last node
             }
             if(lastNode.right != null) {
                 queue.add(lastNode.right);
+                prevRight = lastNode;
+                prevLeft = null; //since only one of the left or right child will be the last node
             }
         }
         if(keyNode != null) {
             keyNode.key = lastNode.key;
-            //Remove the last node (write a separate function in which we have to traverse again since we can't do the lastNode's key to null directly,
-            // we have to keep the pointer of its prev node to make the next of it as null, so traverse again)
-            removeLastNode(root, lastNode);
+            //Remove the last node, we make the pointer of its prev node to make the next of it as null
+            if(prevLeft != null) {
+                prevLeft.left = null;
+            }
+            if(prevRight != null) {
+                prevRight.right = null;
+            }
         }
-    }
-
-    private static void removeLastNode(Node root, Node lastNode) {
-        if(root == null) {
-            return;
-        }
-        if(root == lastNode) {
-            root = null;
-            return;
-        }
-        if(root.left == lastNode) {
-            root.left = null;
-        }
-        if(root.right == lastNode) {
-            root.right = null;
-        }
-        removeLastNode(root.left, lastNode);
-        removeLastNode(root.right, lastNode);
     }
 
     static void inorder(Node root) {
