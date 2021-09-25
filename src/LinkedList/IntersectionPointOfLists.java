@@ -67,15 +67,15 @@ public class IntersectionPointOfLists {
     }
 
     public static void main(String[] args) {
+        Node newNode = new Node(15);
         Node head1 = new Node(3);
         head1.next = new Node(6);
         head1.next.next = new Node(9);
-        head1.next.next.next = new Node(15);
-        head1.next.next.next.next = new Node(30);
+        head1.next.next.next = newNode;
+        newNode.next = new Node(30);
 
         Node head2 = new Node(10);
-        head2.next = new Node(15);
-        head2.next.next = new Node(30);
+        head2.next = newNode;
 
         printList(head1);
         System.out.println();
