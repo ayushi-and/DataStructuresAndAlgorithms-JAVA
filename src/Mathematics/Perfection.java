@@ -8,8 +8,8 @@ import java.io.PrintWriter;
 
 //Write a program to determine whether a number N is equal to the sum of its proper positive divisors (excluding the number itself)
 //Input:
-//First line: T (number of test case)
-//For each test case
+//First line: T (number of TreeDS.test case)
+//For each TreeDS.test case
 //First line : N
 //Output:
 //Print YES if true else NO

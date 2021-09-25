@@ -60,7 +60,7 @@ public class DetectAndRemoveLoopInList {
     }
 
     public void removeLoop(Node slowPtr, Node head) {
-        Node p1 = slowPtr;
+        /*Node p1 = slowPtr;
         Node p2 = head;
 
         while(p1.next != p2.next) {
@@ -68,6 +68,36 @@ public class DetectAndRemoveLoopInList {
             p2 = p2.next;
         }
         p1.next = null;
+         */
+
+        Node p1 = slowPtr;
+        Node p2 = slowPtr;
+
+        //Count the number of nodes in loop
+        int count = 1;
+        while(p1.next != p2) {
+            p1 = p1.next;
+            count++;
+        }
+
+        //Fix one pointer to head
+        p1 = head;
+        p2 = head;
+
+        //And the other pointer to k nodes after head
+        for(int i = 0; i < count; i++) {
+            p2 = p2.next;
+        }
+
+        while(p1 != p2) {
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+        while(p2.next != p1) {
+            p2 = p2.next;
+        }
+
+        p2.next = null;
     }
 
     public static void main(String[] args) {

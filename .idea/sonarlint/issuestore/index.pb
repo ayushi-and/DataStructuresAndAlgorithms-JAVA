@@ -35,8 +35,6 @@ P
  src/Mathematics/AllDivisors.java,9/4/9483d7e9c792d880ecb9ddabe6adcd2184dfd3b6
 V
 &src/Mathematics/DigitsInFactorial.java,4/4/4432d99dbe7d7fcbe7cfd936eb9a380d3ddade91
-O
-src/Mathematics/Perfection.java,9/a/9a63b4e83e7485a47d0c1f41624d840563cade4c
 S
 #src/Mathematics/TrailingZeroes.java,d/c/dc026175090bdd64f6c3daacaff177d08a57e59b
 Y
@@ -45,23 +43,9 @@ X
 (src/Mathematics/SieveOfEratosthenes.java,0/e/0e1a3a4b32dd475673cc692ce3dc6d2db9c47f48
 ]
 -src/BitManipulations/CheckKthBitSetOrNot.java,1/5/15fdbffe6fb1620641e6385994e46138373980ff
-]
--src/TestMixedQuestions/TicTacToeLeetCode.java,6/c/6cd3ad9b255e9a2385dfccd6e6705ff9dc3e9076
-^
-.src/TestMixedQuestions/TicTacToeMainClass.java,1/9/196230444d10b4df1d559d1f50560487a80283aa
 O
 src/Mathematics/PrimeCheck.java,f/b/fb2ad048d1d77af6445fc95c994ee733df52cf5e
-p
-@src/TestMixedQuestions/LongestSubstringWithNoRepeatingChars.java,6/2/62b14f089da61055cacc8a3a92cccb9424c238d1
-h
-8src/TestMixedQuestions/CountSubstringsSlidingWindow.java,2/7/2722cc9d6b718ae769e1ec7c0b98c941aaa3a49d
 h
 8src/TestMixedQuestions/LargestSubArraySlidingWindow.java,b/4/b41871846b8725603e9b8fce512cd14069474b39
-_
-/src/TestMixedQuestions/MaxSumSlidingWindow.java,2/d/2d454ee9ea07e8129dda5ba53a683a179259ce0c
-e
-5src/TestMixedQuestions/LongestPalindromeInString.java,b/0/b021267f297d3b213e2d9838b27a5d6cc1fd429a
 o
 ?src/TestMixedQuestions/AnagramSubstringSearchSlidingWindow.java,b/1/b17f0a472e93ff991fb8d3692ec76252943d5d34
-Z
-*src/LinkedList/RemoveDuplicateElement.java,d/5/d57e98b5a061c6bea51eab73449c529f99ea29ec
