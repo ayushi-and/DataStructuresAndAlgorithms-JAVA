@@ -1,6 +1,8 @@
 package TreeDS;
 
 //Insertion in Binary Search tree using Recursion
+//TC: O(n) in worst case (because of skewed tree)
+//TC: O(log n) for balanced BST
 public class BSTInsertion {
     Node root;
 
