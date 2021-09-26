@@ -1,6 +1,8 @@
 package TreeDS;
 
 //Search a given key in BST
+//O(n) in BST in worst case: for skewed tree
+//For balanced binary search tree: O(logn)
 public class BSTSearching {
     static class Node {
         int key;
