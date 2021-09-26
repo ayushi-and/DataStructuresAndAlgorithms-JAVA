@@ -8,7 +8,7 @@ Depth First Traversals:
 (c) Postorder (Left, Right, Root) : 4 5 2 3 1
 Breadth First or Level Order Traversal : 1 2 3 4 5
  */
-public class DFSTraversalsInPrePost {
+public class DFSTraversalsInPrePostBinaryTree {
     static class Node {
         int data;
         Node left;
