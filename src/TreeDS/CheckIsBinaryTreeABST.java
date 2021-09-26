@@ -47,6 +47,8 @@ public class CheckIsBinaryTreeABST {
     }
 
     //Using Iterative method
+    //Time Complexity: O(N), where N is count of nodes in the binary tree
+    //Auxiliary Space: O(N)
     static boolean isBSTIterative(Node root) {
         // Stores root node and left
         // subtree of each node
