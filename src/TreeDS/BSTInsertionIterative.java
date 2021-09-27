@@ -33,7 +33,7 @@ public class BSTInsertionIterative {
                 current = current.right;
             }
         }
-        if(key <= prev.key) {
+        if(key < prev.key) {
             prev.left = new Node(key);
         }
         else {
