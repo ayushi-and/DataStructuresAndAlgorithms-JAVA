@@ -94,8 +94,6 @@ public class RootToLeafSumBinaryTree {
         tree.insert(4);
         tree.insert(3);
 
-        RootToLeafSumBinaryTree sumTree = new RootToLeafSumBinaryTree();
-
         List<Integer> list = new ArrayList<>();
 
         boolean isPathExist = printPath(tree.root, 22, list);
