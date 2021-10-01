@@ -10,6 +10,7 @@ package TestMixedQuestions;
 
 import java.util.Scanner;
 
+//TC: O(n*n!)
 public class PermutationsOfString {
 
     private static void permute(String str, int l, int r)
