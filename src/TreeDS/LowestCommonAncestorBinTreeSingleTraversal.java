@@ -87,8 +87,13 @@ public class LowestCommonAncestorBinTreeSingleTraversal {
         // If both of the above calls return Non-NULL, then one key
         // is present in once subtree and other is present in other,
         // So this node is the LCA
-        if (leftLCA != null && rightLCA != null) //getting non null value from both left and right child
+        if (leftLCA != null && rightLCA != null) { //getting non null value from both left and right child
             return root;
+        }
+
+        if(leftLCA == null && rightLCA == null) {
+            return null;
+        }
 
         // Otherwise check if left subtree or right subtree is LCA
         return (leftLCA != null) ? leftLCA : rightLCA;

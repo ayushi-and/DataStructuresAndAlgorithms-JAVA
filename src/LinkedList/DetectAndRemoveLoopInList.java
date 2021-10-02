@@ -21,7 +21,7 @@ package LinkedList;
 //Output: 2 -> 20 -> 6 -> 19 -> 13 -> 4
 //Explanation: No loop present.
 
-//he Floyd's algorithm will be used to detect and remove the loop from the linked list.
+//The Floyd's algorithm will be used to detect and remove the loop from the linked list.
 public class DetectAndRemoveLoopInList {
     Node head;
 
