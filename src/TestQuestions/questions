@@ -14,6 +14,7 @@
 - save vs persist in Hibernate(with return type)
 - Blocking Queue
 - Locking or locks technique
+- Reentrant Lock in Java
 - Concurrent HashMap
 - Multithreading
 - Hashmap vs Hashtable (Also, which is synchronous ?)
@@ -26,4 +27,12 @@
 - Future
 - @Qualifier
 - Parse application.properties as key value pair
--
+- Cyclic dependency in spring : (solved using setter injection or lazy instantiation)
+
+
+
+
+
+
+
+
