@@ -1,0 +1,38 @@
+//Accolite
+
+- Stack - Hot and cold temperature
+- BFS(Graph) - X axis to reach home i.e. x(destination) with a forward jumps and b backward jumps, move backward only once at a time and forward anytime
+- Heap (Max heap : delete operation) - Find 7th largest element from array
+- LinkedHashMap - Find most repeating element in array with its frequency (I/P: 8, 8, 9, 2, 8, 6, 6, 6, 5 | O/P: 8, 3) //not 6, 3 since 8 comes first
+- Find bounded leaf in tree.
+
+- Red Black Tree
+- Heap and heapify with complexity
+- Prototype bean in spring wrt singleton
+- Rank vs Dense Rank() function
+- Get vs Load in Hibernate
+- save vs persist in Hibernate(with return type)
+- Blocking Queue
+- Locking or locks technique
+- Reentrant Lock in Java
+- Concurrent HashMap
+- Multithreading
+- Hashmap vs Hashtable (Also, which is synchronous ?)
+- Error/ Exception propagation
+- Marker interface
+- Serialization in java
+- Thread pool
+- Types of thread pool
+- Callable vs Runnable
+- Future
+- @Qualifier
+- Parse application.properties as key value pair
+- Cyclic dependency in spring : (solved using setter injection or lazy instantiation)
+
+
+
+
+
+
+
+
