@@ -2,6 +2,7 @@ package TreeDS;
 
 //Given a binary tree, print boundary nodes of the binary tree Anti-Clockwise starting from the root.
 //The boundary includes left boundary, leaves, and right boundary in order without duplicate nodes. (The values of the nodes may still be duplicates.)
+//Time Complexity: O(n) where n is the number of nodes in binary tree.
 public class BoundaryTraversalOfBinaryTree {
 
     static class Node {
