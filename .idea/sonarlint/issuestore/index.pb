@@ -17,8 +17,6 @@ H
 src/Mathematics/Lcm.java,9/b/9b335c2af56a65871ed5af6d0b4481ea7450c6a2
 O
 src/Mathematics/Palindrome.java,6/d/6d15cc922d746e57867c34352f745ffbf5145ba8
-Q
-!src/Mathematics/PrimeFactors.java,1/a/1a7b0ea065b64e559d30df3841091920d49c0f96
 S
 #src/Mathematics/QuadraticRoots.java,b/1/b15954af43852e38158b4f580a32ffa603e2f4fc
 a
@@ -39,11 +37,7 @@ S
 #src/Mathematics/TrailingZeroes.java,d/c/dc026175090bdd64f6c3daacaff177d08a57e59b
 Y
 )src/Mathematics/ExactlyThreeDivisors.java,a/c/acb8804ba12e92319656a8523754f194d574b777
-X
-(src/Mathematics/SieveOfEratosthenes.java,0/e/0e1a3a4b32dd475673cc692ce3dc6d2db9c47f48
 ]
 -src/BitManipulations/CheckKthBitSetOrNot.java,1/5/15fdbffe6fb1620641e6385994e46138373980ff
-O
-src/Mathematics/PrimeCheck.java,f/b/fb2ad048d1d77af6445fc95c994ee733df52cf5e
 o
 ?src/TestMixedQuestions/AnagramSubstringSearchSlidingWindow.java,b/1/b17f0a472e93ff991fb8d3692ec76252943d5d34
