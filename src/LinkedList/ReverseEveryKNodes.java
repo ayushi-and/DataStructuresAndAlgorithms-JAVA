@@ -44,22 +44,23 @@ public class ReverseEveryKNodes {
             Node next = null;
             int count = 0;
 
-            while(current != null && count < k){
+            while(current != null && count < k) {
                 next = current.next;
                 current.next = previous;
                 previous = current;
                 current = next;
                 count++;
             }
-            if(lastNodeOfPreviousPart != null){
+            if(lastNodeOfPreviousPart != null) {
                 lastNodeOfPreviousPart.next = previous;
-            }else{
+            }
+            else {
                 head = previous;
             }
 
             lastNodeOfSublist.next = current;
 
-            if(current == null){
+            if(current == null) {
                 break;
             }
             previous = lastNodeOfSublist;
