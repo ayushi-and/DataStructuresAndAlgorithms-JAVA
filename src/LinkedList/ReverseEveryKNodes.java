@@ -30,9 +30,9 @@ public class ReverseEveryKNodes {
         }
     }
 
-    public void reverseKNodes(int k) {
-        if(head == null || k == 0) {
-            return;
+    public Node reverseKNodes(int k) {
+        if(head == null || k == 0 || k == 1) {
+            return head;
         }
 
         Node current = head;
@@ -65,6 +65,7 @@ public class ReverseEveryKNodes {
             }
             previous = lastNodeOfSublist;
         }
+        return head;
     }
 
     public void push(int newData) {
