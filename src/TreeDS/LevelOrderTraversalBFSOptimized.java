@@ -18,7 +18,7 @@ For a Balanced tree, the call stack uses O(log n) space, (i.e., the height of th
  */
 //Time Complexity: O(n) where n is the number of nodes in the binary tree
 //Space Complexity: O(n) where n is the number of nodes in the binary tree
-public class LevelOrderTracersalBFSOptimized {
+public class LevelOrderTraversalBFSOptimized {
     static class Node {
         int data;
         Node left;
