@@ -61,7 +61,7 @@ public class TreeTraversalSpiralOrder {
         }
     }
 
-    //Iterative approach - using queue
+    //Iterative approach
     //O(n)
     //using two stacks
     static void spiralOrderTraversalOptimized(Node root) {

@@ -52,7 +52,7 @@ public class CheckIsBinaryTreeABST {
     static boolean isBSTIterative(Node root) {
         // Stores root node and left
         // subtree of each node
-        Stack<Node > Stack = new Stack<>();
+        Stack<Node> Stack = new Stack<>();
 
         // Stores previous visited node
         Node prev = null;

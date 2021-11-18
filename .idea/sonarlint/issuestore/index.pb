@@ -1,43 +1,23 @@
 
-X
-(src/Mathematics/AdditionUnderModulo.java,d/b/db2a18261c9ac23d27d66717694fec01033e9a71
-W
-'src/Mathematics/CelsiusToFahreheit.java,4/d/4d354b18d06fb92d07ef36157eae3c09cb2b52dd
-Q
-!src/Mathematics/ComputePower.java,d/d/dd248845d8525d3ac3cab86515ca4f71d1dc9b0d
-P
- src/Mathematics/CountDigits.java,7/b/7bf949b8a2341c472a2ee42137729f13859dfec5
-N
-src/Mathematics/Factorial.java,2/5/25d2424b04666fca4ab31ce20a9cc49227126ee0
-H
-src/Mathematics/Gcd.java,6/0/60c2e81ee8e27a64f8b2f3d6e5ec3e7bdc61c895
-K
-src/Mathematics/GPTerm.java,a/8/a8dce080a46246c8c366fc64839d42fbf48d94ca
-H
-src/Mathematics/Lcm.java,9/b/9b335c2af56a65871ed5af6d0b4481ea7450c6a2
-O
-src/Mathematics/Palindrome.java,6/d/6d15cc922d746e57867c34352f745ffbf5145ba8
-S
-#src/Mathematics/QuadraticRoots.java,b/1/b15954af43852e38158b4f580a32ffa603e2f4fc
-a
-1src/Mathematics/ModularMultiplicativeInverse.java,b/c/bc6f36362f245e9e424fb4014182b0358540c2e5
-Y
-)src/BitManipulations/BitwiseAndOrXor.java,a/2/a2eb3f67d0c5c39e8e31cfcbca5b9968795dffdd
 ]
 -src/BitManipulations/BitwiseNotLeftShift.java,1/5/15ea8e03e1ffa20e3c27846a8219d8af3fc7402b
 `
 0src/BitManipulations/BitwiseRightShiftCases.java,c/2/c24f90a5071b859b1ffa367363f2cd175e48b189
-R
-"src/Mathematics/AbsoluteValue.java,f/8/f8fc405d1c060c751cc12d5410c5fff54dc6d088
-P
- src/Mathematics/AllDivisors.java,9/4/9483d7e9c792d880ecb9ddabe6adcd2184dfd3b6
-V
-&src/Mathematics/DigitsInFactorial.java,4/4/4432d99dbe7d7fcbe7cfd936eb9a380d3ddade91
-S
-#src/Mathematics/TrailingZeroes.java,d/c/dc026175090bdd64f6c3daacaff177d08a57e59b
-Y
-)src/Mathematics/ExactlyThreeDivisors.java,a/c/acb8804ba12e92319656a8523754f194d574b777
 ]
 -src/BitManipulations/CheckKthBitSetOrNot.java,1/5/15fdbffe6fb1620641e6385994e46138373980ff
 o
-?src/TestMixedQuestions/AnagramSubstringSearchSlidingWindow.java,b/1/b17f0a472e93ff991fb8d3692ec76252943d5d34
+?src/leetcodeChallenges/septChallenge/LargestPlusSignDPDay9.java,6/7/67009febfb2ea4b7fb63d6b5e5831eca1e7a2db9
+K
+src/TestQuestions/questions,4/7/47b43c58caf327de2f3f1761837bdd1bde1502e7
+w
+Gsrc/leetcodeChallenges/septChallenge/LongestTurbulentSubArrayDay15.java,4/d/4d43ed474c9e5ed0f117a7711ec1485f4333cc35
+r
+Bsrc/leetcodeChallenges/septChallenge/SumOfDistancesInTreeDay4.java,b/6/b6194021c1333a3efdefe10cd0dd0ffe5dd385ad
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Y
+)src/BitManipulations/BitwiseAndOrXor.java,a/2/a2eb3f67d0c5c39e8e31cfcbca5b9968795dffdd
+j
+:src/leetcodeChallenges/septChallenge/ArrayNestingDay1.java,d/4/d430bf704221b4e0437efd58055adfcf55f07ab0
+a
+1src/Mathematics/ModularMultiplicativeInverse.java,b/c/bc6f36362f245e9e424fb4014182b0358540c2e5
