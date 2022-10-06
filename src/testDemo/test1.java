@@ -29,5 +29,20 @@ public class test1 {
 
     public static void main(String[] args) {
         result("red,yellow,blue,red,red,black,yellow, yellow");
+
+            /*if("Mist Fan | 24 inch | 50 ltr Tank Capacity | Copper Motor".toLowerCase().replaceAll("[^a-zA-Z0-9]"," ").matches(".*" + "Mist Fan | 24 inch | 50 ltr Tank Capacity | Copper Motor".toLowerCase().replaceAll("[^a-zA-Z0-9]"," ") + ".*")) {
+                System.out.println("Mist Fan | 24 inch | 50 ltr Tank Capacity | Copper Motor".toLowerCase().replaceAll("[^a-zA-Z0-9]"," "));
+                System.out.println("true");
+                System.out.println(".*" + "Mist Fan | 24 inch | 50 ltr Tank Capacity | Copper Motor".toLowerCase().replaceAll("[^a-zA-Z0-9]"," ") + ".*");
+
+            }
+            else {
+                System.out.println("false");
+            }
+
+        String str="This#string%contains^special*characters&.";
+        str = str.replaceAll("[^a-zA-Z0-9]"," ");
+        System.out.println(str);*/
+
     }
 }
