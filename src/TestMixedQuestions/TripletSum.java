@@ -22,7 +22,7 @@ public class TripletSum {
                 sum = arr[i] + arr[start] + arr[end];
 
                 if(sum == k) {
-                    System.out.print(arr[i] + " " + arr[start] + " " + arr[end]);
+                    System.out.println(arr[i] + " " + arr[start] + " " + arr[end]);
                     start++;
                     end--;
                 }

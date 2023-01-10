@@ -18,7 +18,7 @@ public class CountIslands {
         boolean v[][] = new boolean[r][c];
         for(int i = 0; i < r; i++) {
             for(int j = 0; j < c; j++) {
-                if(arr[j][j] == 1) {
+                if(arr[i][j] == 1) {
                     if(!v[i][j]) {
                         checkPairs(arr, i, j, v);
                         ++count;
