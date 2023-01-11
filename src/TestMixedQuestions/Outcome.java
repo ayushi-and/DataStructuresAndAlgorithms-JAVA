@@ -1,4 +1,4 @@
-package Graph;
+package TestMixedQuestions;
 
 import java.io.IOException;
 

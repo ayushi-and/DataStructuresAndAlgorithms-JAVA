@@ -1,4 +1,4 @@
-package Graph;
+package TestMixedQuestions;
 
 /*
 Given an array arr[0 .. n-1] of distinct integers, the task is to find a local minimum in it. We say that an element arr[x] is a local minimum if it is less than both its neighbors.
