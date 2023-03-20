@@ -19,12 +19,6 @@ a
 1src/Mathematics/ModularMultiplicativeInverse.java,b/c/bc6f36362f245e9e424fb4014182b0358540c2e5
 G
 src/testDemo/test3.java,f/4/f4df192786e45461f833c7944f4b6e0564aa116f
-G
-src/testDemo/test2.java,f/d/fde85a08362e207c44c13e76dfd3363ed1eda1e7
-J
-src/testDemo/sortTest.java,4/0/405891727e5232053c2d7be53e5535f3676a043b
-G
-src/testDemo/test1.java,2/0/20cb8639d60ae336e215cf94fbb09e99fc611a5e
 o
 ?src/TestMixedQuestions/AnagramSubstringSearchSlidingWindow.java,b/1/b17f0a472e93ff991fb8d3692ec76252943d5d34
 k
@@ -51,12 +45,6 @@ V
 &src/Mathematics/DigitsInFactorial.java,4/4/4432d99dbe7d7fcbe7cfd936eb9a380d3ddade91
 W
 'src/TestMixedQuestions/DeviceNames.java,e/f/ef0481e7d3bb860aeb29e532ca70dbbe79aa0d01
-U
-%src/StreamsAndReactive/Exercise1.java,0/1/0115b8aa46a8017bee0771288dc0c08c8d127ab8
-Y
-)src/StreamsAndReactive/StreamSources.java,4/4/44cb390ade47ddb2121fdb488d6bc9c409924a74
-P
- src/StreamsAndReactive/User.java,3/d/3db348d248214f020263fc813244452f099f37a7
 Q
 !src/Mathematics/PrimeFactors.java,1/a/1a7b0ea065b64e559d30df3841091920d49c0f96
 O
