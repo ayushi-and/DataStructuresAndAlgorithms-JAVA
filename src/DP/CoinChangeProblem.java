@@ -28,7 +28,7 @@ public class CoinChangeProblem {
         //System.out.println(minCoins(value, arr));
     }
 
-    //using dynamic programming
+    //using dynamic programming O(mn)
     static int minCoins(int value, int[] arr, int[] dp) {
 
         if(value == 0) {
@@ -57,7 +57,7 @@ public class CoinChangeProblem {
         return dp[value];
     }
 
-    //using Recursion
+    //using Recursion - O(m^n)
     /*static int minCoins(int value, int[] arr) {
 
         if(value == 0) {
