@@ -1,0 +1,10 @@
+
+m	java:S127."XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÞÁ´öùÿÿÿÿ
+k
+java:S1149'"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›þöýÿÿÿÿ
+W
+java:S18542"ARemove this useless assignment to local variable "currentNumber".(¬´µÚ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ÑÞ¡Ïøÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ò²½øüÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ÈéÙ¸ûÿÿÿÿ

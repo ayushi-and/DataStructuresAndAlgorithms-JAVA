@@ -1,0 +1,14 @@
+
+b	java:S101*"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ì®¶
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Î…‘Ø
+Z
+java:S2583j"DChange this condition so that it does not always evaluate to "false"(ŞÓÌ
+Q	java:S125"<This block of commented-out lines of code should be removed.(å›à
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(ÈÕÎõ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(€Ä€ôúÿÿÿÿ
+=
+java:S1125j"'Remove the unnecessary boolean literal.(ŞÓÌ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(³ŠœËøÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(Õ•±×şÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'LinkedList.ReverseOfLinkedList'.(µ¨œÑ

@@ -1,0 +1,5 @@
+
+b
+java:S1192 "GDefine a constant instead of duplicating this literal "switch" 3 times.(Ëûñáøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ²‡
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Õ¿õ 
