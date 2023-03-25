@@ -1,5 +1,7 @@
 package DP;
 
+import java.util.Arrays;
+
 //using dp, top down
 public class LongestCommonSubsequenceUsingDP {
 
@@ -12,10 +14,39 @@ public class LongestCommonSubsequenceUsingDP {
 
     }
 
+    //using dynamic programming
+    //Time Complexity: O(m * n) which is much better than the worst-case time complexity of Naive Recursive implementation.
+    //Auxiliary Space: O(m * n) because the algorithm uses an array of size (m+1)*(n+1) to store the length of the common substrings.
+    public static int longestCommonSubsequence(String text1, String text2) {
+        int n1 = text1.length();
+        int n2 = text2.length();
+
+        int[][] dp = new int[n1+1][n2+1];
+
+        return lcs(n1, n2, text1, text2, dp);
+    }
+
+    public static int lcs(int n1, int n2, String str1, String str2, int[][] dp) {
+
+        for(int i = 1; i <= n1; i++) {
+            for(int j = 1; j <= n2; j++) {
+                if(str1.charAt(i-1) == str2.charAt(j-1)) {
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                }
+                else {
+                    dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
+                }
+            }
+        }
+
+        return dp[n1][n2];
+
+    }
+
     //using Memoization
     //Time Complexity: O(m * n) where m and n are the string lengths.
     //Auxiliary Space: O(m * n) here the recursive stack space is ignored.
-    public static int longestCommonSubsequence(String text1, String text2) {
+    /*public static int longestCommonSubsequence(String text1, String text2) {
         int n1 = text1.length();
         int n2 = text2.length();
 
@@ -49,11 +80,11 @@ public class LongestCommonSubsequenceUsingDP {
 
         return dp[n1][n2];
 
-    }
+    }*/
 
 
     //Using Recursion
-    //Time Complexity: O(2n)
+    //Time Complexity: O(2^n)
     //Auxiliary Space: O(1)
     /*public static int longestCommonSubsequence(String text1, String text2) {
         int n1 = text1.length();
