@@ -5,7 +5,7 @@ package TestMixedQuestions;
 sorted rotated array
 find the max element from this
  */
-public class SortedRotatedArray {
+public class MaximumElementInSortedRotatedArray {
 
     public static void main(String[] args) {
         int[] arr = {-1, -8, -5, -2};
