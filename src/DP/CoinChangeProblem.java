@@ -18,13 +18,17 @@ Output: Minimum 2 coins required We can use one coin of 6 cents and 1 coin of 5 
 public class CoinChangeProblem {
 
     public static void main(String[] args) {
-        int value = 18;
-        int[] arr = {7, 5, 1};
+        int value = 3;
+        int[] arr = {2};
         int[] dp = new int[value + 1];
         Arrays.fill(dp, -1);
-        dp[0] = 0;
+        //dp[0] = 0;
 
-        System.out.println(minCoins(value, arr, dp));
+        int ans = minCoins(value, arr, dp);
+        if(ans == Integer.MAX_VALUE) {
+            ans = -1;
+        }
+        System.out.println(ans);
         //System.out.println(minCoins(value, arr));
     }
 
@@ -35,26 +39,23 @@ public class CoinChangeProblem {
             return 0;
         }
 
+        if(dp[value] != -1) {
+            return dp[value];
+        }
+
         int ans = Integer.MAX_VALUE;
 
         for(int i = 0; i < arr.length; i++) {
             if(value - arr[i] >= 0) {
-                int subAnswer = 0;
-                if(dp[value - arr[i]] != -1) {
-                    subAnswer = dp[value - arr[i]];
-                }
-                else {
-                    subAnswer = minCoins(value - arr[i], arr, dp);
-                }
-
-                if(subAnswer + 1 < ans) {
+               int subAnswer = minCoins(value - arr[i], arr, dp);
+               if(subAnswer != Integer.MAX_VALUE && subAnswer + 1 < ans) {
                     ans = subAnswer + 1;
                 }
             }
         }
         dp[value] = ans;
 
-        return dp[value];
+        return ans;
     }
 
     //using Recursion - O(m^n)
